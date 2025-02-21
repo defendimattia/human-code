@@ -185,8 +185,16 @@ Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita 
 ### Soluzione 
 
 
-- prendere tutti i documenti nell'ufficio
-- organizzarli
-- scannerizzare per ogni foglio fronte e retro
-- risistemare i fogli
-- organizzarli nel pc
+- prendere tutti i documenti nell'ufficio e orinarli in ordine crescente 
+- creare una cartella di destinazione su pc che conterrà tutti i documenti
+- scannerizzare 
+    - per ogni foglio preso:
+        - scannerizzare fronte
+            - se presente pure retro:
+                - scannerizzare retro
+            - altrimenti non scannerizzare retro
+        - validare se il documento è uscito bene
+            - altrimenti ri-scannerizzare il foglio e scegliere il migliore tra le 2
+        - aggiungere file di scannerizzazione nella directory che si era prima creata
+- analizzare la cartella e verificare che tutti i file siano presenti
+    - altrimenti segnare su un file di note tutti le pagine mancanti
